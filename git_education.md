@@ -2,8 +2,12 @@
 
 ### Базовые команды git
 
-* *Git init* initializing repository command in current folder;
-* *Git add* - отслеживание перед коммитом
-* *Git commit -m "Message"* - команда, фиксирующая изменения;
-* *Git branch* - Ветви
-* *Git merge* - Слияние
+* *git init* initializing repository command in current folder;
+* *git add* - отслеживание перед коммитом
+* *git commit -m "Message"* - команда, фиксирующая изменения;
+* *git branch* - Ветви
+* *git merge* - Слияние
+* *git diff* - используется для вычисления разницы между любыми двумя Git деревьями.
+* *git difftool* - запускает внешнюю утилиту сравнения для показа различий в двух деревьях.
+* *git reset* - отмена изменений. Ключ --hard изменит файлы в рабочей директории.
+* *git rm* - удаление.
